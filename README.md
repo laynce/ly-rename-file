@@ -1,4 +1,4 @@
-##ly-rename-file
+## ly-rename-file
 
 Add prefix or suffix to filename
 
