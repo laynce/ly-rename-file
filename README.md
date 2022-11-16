@@ -1,6 +1,6 @@
 ## ly-rename-file
 
-Add prefix or suffix to filename
+Add prefix or suffix to modify filename
 
 ### Installation
 
