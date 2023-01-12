@@ -1,11 +1,11 @@
 {
   "name": "ly-rename-file",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "文件名称添加前后缀",
   "main": "dist/main.js",
   "bin": "./bin/index.js",
-  "homepage": "",
-  "repository": "",
+  "homepage": "https://github.com/laynce/ly-rename-file",
+  "repository": "https://github.com/laynce/ly-rename-file",
   "scripts": {
     "start": "rollup src/main.js -o dist/main.js  -f cjs",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,6 +16,10 @@
     "commander": "^9.3.0",
     "fast-glob": "^3.2.11"
   },
+  "files": [
+    "./dist",
+    "./bin"
+  ],
   "keywords": [
     "fast-glob",
     "rollup",

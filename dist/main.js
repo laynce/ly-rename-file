@@ -17,7 +17,6 @@ const defaultConfig = {
 
 
 exports.reName = async (params) => {
-  console.log(params);
   let config = {};
   if (params.config) {
     config = require(path.resolve(params.config));
